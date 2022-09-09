@@ -1,0 +1,14 @@
+1.To execute export_promptsV2.exe[-h|--help] 
+Example : ./export_promptsV2.exe --clientId 4d3edc0d-b941-42f7-a54a-ad260574f408 --clientSecret dndR9vT4P6qCbkG2UlCqiNE61V2zc4Y7SIyY9v8u-gc --region ap_southeast_2 --outputPATH ./output2
+
+usage: export_promptsV2.exe --clientId CLIENTID --clientSecret CLIENTSECRET --region REGION --outputPATH OUTPUTPATH [-h]
+
+optional arguments:
+  --clientId CLIENTID   		Org's ClientId
+  --clientSecret CLIENTSECRET	Org's ClientSecret
+  --region REGION       		Org's Region:'us_east_1','us_west_1','ap_southeast_2','ap_northeast_1','eu_central_1',
+											 'us_west_2','ca_central_1','ap_northeast_2','eu_west_2','ap_south_1',
+											 'us_east_2','sa_east_1'
+  --outputPATH OUTPUTPATH       Export YAML location:'./output'
+  -h, --help            		To execute this EXE file : .\export_flows.exe --clientId <clientID> 
+							    --clientSecret <clientSecret> --region <region> --archyPATH ./archy-win/archy.bat --outputPATH ./output
